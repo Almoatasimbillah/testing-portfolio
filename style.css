@@ -64,3 +64,13 @@ body {
   transform: translateY(-5px);
   background-color: #334155;
 }
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #38bdf8;
+  margin-bottom: 20px;
+}
+
+
