@@ -2,95 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Almoatasim | Software Testing Portfolio</title>
+  <title>Almoatasim | Testing Portfolio</title>
 
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
+<body class="dark">
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <img src="images/profile.jpg" alt="Profile Photo" class="profile-img">
+<!-- Theme Toggle -->
+<button class="theme-toggle" onclick="toggleTheme()">
+  <i class="fa-solid fa-moon"></i>
+</button>
 
-    <h1>Almoatasim Hasanain</h1>
-    <p>Software Testing Trainee | Manual & Automation Testing</p>
+<header class="hero">
+  <img src="images/profile.jpg" class="profile-img">
+  <h1>Almoatasim Hasanain</h1>
+  <p>Software Testing Trainee | Manual & Automation</p>
 
-    <div class="cta">
-      <a href="#projects">View Projects</a>
-      <a href="cv/AlMoatasimbillah CV.pdf" download>Download CV</a>
-      <a href="#contact" class="secondary">Contact Me</a>
-    </div>
-  </header>
+  <div class="cta">
+    <a href="cv/Almoatasim_CV.pdf" download>Download CV</a>
+    <a href="#contact" class="secondary">Contact Me</a>
+  </div>
+</header>
 
-  <!-- About -->
-  <section class="section">
-    <h2>About Me</h2>
-    <p>
-      Software Testing trainee with a solid understanding of software testing
-      fundamentals, SDLC, STLC, and test case design.
-      Currently building hands-on experience in manual and automation testing.
-    </p>
-  </section>
+<section class="section">
+  <h2>About Me</h2>
+  <p>
+    Software Testing trainee with a solid understanding of software testing
+    fundamentals, SDLC, STLC, and defect life cycle.
+    Passionate about delivering high-quality software and continuously learning
+    new testing tools and techniques.
+  </p>
+</section>
 
-  <!-- Skills -->
-  <section class="section">
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>Manual Testing</li>
-      <li>Test Case Writing</li>
-      <li>Bug Reporting</li>
-      <li>SDLC & STLC</li>
-      <li>Java Basics</li>
-      <li>OOP Fundamentals</li>
-      <li>ISTQB Concepts</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+<section class="section">
+  <h2>Testing Approach</h2>
+  <ul class="list">
+    <li>Understand requirements before testing</li>
+    <li>Write clear and structured test cases</li>
+    <li>Focus on edge cases and negative scenarios</li>
+    <li>Report bugs with proper steps and evidence</li>
+  </ul>
+</section>
 
-  <!-- Projects -->
-  <section class="section" id="projects">
-    <h2>Projects</h2>
-    <p class="placeholder">
-      Projects will be added soon.
-    </p>
-  </section>
+<section class="section">
+  <h2>Tools & Technologies</h2>
+  <ul class="skills">
+    <li>Manual Testing</li>
+    <li>Test Case Design</li>
+    <li>Bug Reporting</li>
+    <li>Java Basics</li>
+    <li>OOP Concepts</li>
+    <li>Git & GitHub</li>
+    <li>ISTQB Concepts</li>
+  </ul>
+</section>
 
-  <!-- Contact -->
-  <section class="section" id="contact">
-    <h2>Contact</h2>
+<section class="section">
+  <h2>Learning Journey</h2>
+  <p>
+    Currently building hands-on experience through practice,
+    self-study, and continuous learning in software testing.
+    Future projects and real-world testing examples will be added soon.
+  </p>
+</section>
 
-    <div class="contact-grid">
+<section class="section">
+  <h2>Why Hire Me?</h2>
+  <ul class="list">
+    <li>Strong fundamentals in testing concepts</li>
+    <li>Detail-oriented mindset</li>
+    <li>Fast learner and highly motivated</li>
+    <li>Honest about experience and eager to grow</li>
+  </ul>
+</section>
 
-      <div class="contact-item">
-        <i class="fa-solid fa-envelope"></i>
-        <span>Email</span>
-      </div>
+<section class="section" id="contact">
+  <h2>Contact</h2>
 
-      <div class="contact-item">
-        <i class="fa-solid fa-phone"></i>
-        <span>Phone</span>
-      </div>
+  <div class="contact-grid">
+    <div class="contact-item"><i class="fa-solid fa-envelope"></i> Email</div>
+    <div class="contact-item"><i class="fa-solid fa-phone"></i> Phone</div>
+    <div class="contact-item"><i class="fa-brands fa-github"></i> GitHub</div>
+    <div class="contact-item"><i class="fa-brands fa-linkedin"></i> LinkedIn</div>
+  </div>
+</section>
 
-      <div class="contact-item">
-        <i class="fa-brands fa-github"></i>
-        <a href="https://github.com/almoatasimbillah" target="_blank">GitHub</a>
-      </div>
+<footer>
+  © 2026 Almoatasim Hasanain
+</footer>
 
-      <div class="contact-item">
-        <i class="fa-brands fa-linkedin"></i>
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-      </div>
-
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 Almoatasim Hasanain</p>
-  </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
