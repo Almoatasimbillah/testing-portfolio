@@ -76,11 +76,14 @@ body {
 }
 
 .contact-item {
-  background: var(--card);
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
+  text-decoration: none;
+  color: var(--text);
 }
+
+.contact-item:hover {
+  background: var(--card);
+}
+
 
 .theme-toggle {
   position: fixed;
@@ -94,3 +97,4 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
+
